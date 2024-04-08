@@ -1,0 +1,61 @@
+/* styles.css */
+
+.signup-container {
+    position: fixed;
+    top: 50%; /* Adjust top positioning as needed */
+    right: 0;
+    transform: translateY(-50%);
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 40%;
+    overflow: hidden;
+  }
+  
+  .signup-container h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .signup-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .signup-container label {
+    margin-bottom: 5px;
+  }
+  
+  .signup-container input {
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .signup-container button {
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .signup-container button:hover {
+    background-color: #0056b3;
+  }
+  .loginLink{
+    margin-left: 35%;
+  }
+  .socialmedia{
+    margin-left: 28%;
+  }
+  .signupbody {
+    background-size: cover;
+    background-position: center;
+    height: 93.5vh;
+    overflow: hidden;
+    background-image: url('C:\Users\DELL\clothingwebsite\src\components\img\handsome-smiling-hipster-man-posing-studio.jpg');
+    position: relative; 
+    padding-top: -20px;
+}

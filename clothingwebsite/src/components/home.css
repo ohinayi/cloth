@@ -1,0 +1,39 @@
+.background {
+        background-size: cover;
+        background-position: center;
+        height: 93.5vh;
+        overflow: hidden;
+        background-image: url('C:\Users\DELL\clothingwebsite\src\components\img\handsome-smiling-hipster-man-posing-studio.jpg');
+        position: relative; 
+        z-index: 1;
+        padding-top: -20px;
+}
+      
+.text-container {
+        position: absolute;
+        top: 30%; 
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center; 
+        color: rgb(17, 17, 17);
+        z-index: -1; 
+}
+      
+.text-container h1 {
+        font-size: 3rem; 
+        margin-bottom: 20px; 
+}
+      
+.text-container p {
+        font-size: 1.5rem; 
+        margin: 0;
+}
+.login{
+        margin-top: 6%;
+        height: 40px;
+        background-color: rgb(73, 71, 71);
+        color: white;
+        border-radius: 10px;
+}   
+
+      

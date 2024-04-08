@@ -1,0 +1,73 @@
+.card_div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.clothing-cards-container {
+    flex: 0 0 25%; /* Four cards per row */
+    max-width: 25%; /* Ensure maximum width for each card */
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    .clothing-cards-container {
+        flex: 0 0 50%; /* Two cards per row on smaller screens */
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 480px) {
+    .clothing-cards-container {
+        flex: 0 0 100%; /* One card per row on even smaller screens */
+        max-width: 100%;
+    }
+}
+
+.clothing-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center align content */
+}
+
+.clothing-card img {
+    max-width: 100%;
+    height: 200px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+#myDiv{
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 93.5vh;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+#myDiv {
+    background-size: cover;
+    background-position: center;
+    height: 60.5vh;
+    overflow: hidden;
+    position: relative;
+    border: 2px solid rgb(226, 226, 226); 
+    border-radius: 10px;
+}
+#myDiv img {
+    width: 100%;
+}
+.purchase{
+    width: 50%;
+    height: 30px;
+    border-radius: 10px;
+    background: rgb(116, 115, 113);
+}
+.prize{
+    font-weight: bolder;
+}

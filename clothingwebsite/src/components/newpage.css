@@ -1,0 +1,52 @@
+.addProduct{
+    width: 70%;
+    height: 85vh;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    background: rgb(240, 240, 240);
+    color: black;
+}
+.addInput{
+    width: 50%;
+    position: relative;
+    height: 30px;
+    margin-right: 40%;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+hr{
+    margin-bottom: 20px;
+}
+.body{
+ background: rgb(228, 228, 228);  
+ height: 91.7vh; 
+ padding: 10px;
+}
+h2{
+    margin-top: -5px;
+}
+.labels{
+    font-family: monospace;
+    
+}
+.file{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.submit{
+    margin-top: 20px;
+}
+.submit button{
+    width: 30%;
+    height: 30px;
+    border-radius: 10px;
+    color: black;
+    background: rgb(53, 53, 53);
+    font-family: monospace;
+    font-size: larger;
+    font-weight: bolder;
+
+
+}
