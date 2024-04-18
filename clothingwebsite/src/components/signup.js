@@ -4,6 +4,7 @@ import useApi from "./api";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import { authcontext } from "./authenticated";
+import image1 from "./img/handsome-smiling-hipster-man-posing-studio.jpg"
 
 const Signup = () => {
     const navigate = useNavigate();
@@ -45,7 +46,7 @@ const Signup = () => {
     }
 
     return (
-        <div className="signupbody">
+        <div className="signupbody" style={{backgroundImage: `url(${image1})`}}>
             <div className="signup-container">
                 <h2>Sign Up</h2>
                 <form onSubmit={handleSubmit}>

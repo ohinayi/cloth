@@ -2,8 +2,6 @@ import { authcontext } from "./authenticated";
 import { useContext, useState } from "react";
 import axios from "axios";
 
-
-
 const useApi = () => {
     const {logoutUser} = useContext(authcontext);
     const [api] = useState(() => {
@@ -11,7 +9,7 @@ const useApi = () => {
             baseURL: 'http://localhost:3001',
             headers: {
                 "content-type": "application/json",
-            },
+            }
         });
 
 

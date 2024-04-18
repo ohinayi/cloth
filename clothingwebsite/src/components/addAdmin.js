@@ -1,6 +1,7 @@
 import { useContext, useState } from "react";
 import useApi from "./api";
 import { authcontext } from "./authenticated";
+import image1 from "./img/handsome-smiling-hipster-man-posing-studio.jpg"
 
 const AddAdmin = () => {
     const api = useApi();
@@ -35,7 +36,7 @@ const AddAdmin = () => {
     }
     return (
         <div>
-            <div className="signupbody">
+            <div className="signupbody" style={{backgroundImage: `url(${image1})`}}>
                 <div className="signup-container">
                     <h2>Add To Admin</h2>
                     <form onSubmit={handleSubmit}>

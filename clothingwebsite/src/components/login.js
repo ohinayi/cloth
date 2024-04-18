@@ -3,6 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import "./login.css"
 import { authcontext } from "./authenticated";
 import useApi from "./api";
+import image1 from "./img/handsome-smiling-hipster-man-posing-studio.jpg"
 
 const Login = () => {
     const navigate = useNavigate();
@@ -31,7 +32,7 @@ const Login = () => {
     };
 
     return(
-        <div className="loginbody">
+        <div className="loginbody" style={{backgroundImage: `url(${image1})`}}>
              <div className="signup-container">
              <h2>Login</h2>
                  <form onSubmit={handleLogin}>
